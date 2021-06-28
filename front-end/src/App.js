@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Posts from "../Components/Posts.jsx";
 
 function App() {
   return (
     <div>
       {/* ------------ */}
-      {/* Put here your component */}
+      <Posts />
     </div>
   );
 }
